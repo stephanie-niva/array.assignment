@@ -17,10 +17,10 @@ console.log({newArray});
 let arr4=["boy","man","girl",   "school","girl","woman"];
 console.log(arr4);
 
-function noDuplicate(arr){
+function noDuplicate(arr4){
     return[...new Set(arr4)];
 }
-console.log(noDuplicate(arr));
+console.log(noDuplicate(arr4));
 //searching for element in array//
 let arr5 = ["the","way","x",4];
 let a = arr5.includes("food");
@@ -33,12 +33,9 @@ else{
 
 //sorting arrays//
 let word ="renniw";
-let arrayx = word.split;
-console.log(arrayx);
-let c = arrayx.sort();
-console.log(c);
-const string=arrayx.toString();
-console.log(string);
+let newWord = word.split("").reverse("").join("");
+console.log(newWord);
+
 
 
 
